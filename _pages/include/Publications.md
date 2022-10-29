@@ -7,7 +7,7 @@
     </li>
   
   <li><b>Hourly Solar Irradiance Forecasting Based on Encoder–decoder Model Using Series Decomposition and Dynamic Error Compensation.</b>
-	<a href="https://github.com/JL-tong/JL-tong.github.io/blob/master/docs/ECM-hourly.pdf" target="_blank" rel="noopener noreferrer">[PDF]</a><br> 
+	<a href="https://jl-tong.github.io/docs/ECM-hourly.pdf" target="_blank" rel="noopener noreferrer">[PDF]</a><br> 
 	<i><b>Junlong Tong</b>, Liping Xie, Shixiong Fang, Wankou Yang, Kanjian Zhang<br></i>
 	Energy Conversion and Management (JCR-Q1, IF=11.533), 2022<br> 
     </li>
