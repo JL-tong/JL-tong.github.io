@@ -15,8 +15,8 @@ main:
   - title: "联系方式"
     url: "/#联系方式"
 
-  - title: "简历"
-    url: /../files/CVzh.pdf
+  - title: "简历(pdf)"
+    url: /../docs/CV_zh.pdf
 
   - title: "EN"
     url: /../
