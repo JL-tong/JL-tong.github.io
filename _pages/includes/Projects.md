@@ -8,7 +8,8 @@
 * **2020 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;基于视觉的六轴机械臂高精度跟踪控制技术研究（视觉部分）**  
   主要内容：基于目标检测算法实现抓取物体的实时识别与定位，并部署至 Nvidia Jetson 边缘计算平台 -->
 
-<table frame=void rules=none>
+
+<table frame=void rules=none >
     <tr>
         <td><li><b> 2022</b></li></td>
         <td><b>参与省级自然科学基金申请</b></td>
