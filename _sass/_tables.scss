@@ -3,7 +3,8 @@
    ========================================================================== */
 
 table {
-  margin-bottom: 1em;
+//   margin-bottom: 1em;
+margin-bottom:0.5em;
   width: 100%;
   font-family: $global-font-family;
   font-size: $type-size-6;
@@ -38,5 +39,5 @@ td {
 
 tr, td, th {
   vertical-align: middle;
-  border:0;
+  border:0; //边框
 }
