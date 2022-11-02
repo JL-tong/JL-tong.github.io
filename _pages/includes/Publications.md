@@ -1,6 +1,6 @@
 # 出版物
 <div class='paper-box'><div class='paper-box-image'>
-<div><img src='images/frame.png' alt="sym" width="60%"></div></div>
+<div><img src='frame.png' alt="sym" width="60%"></div></div>
 <div class='paper-box-text' markdown="1"></div></div>
 
  
