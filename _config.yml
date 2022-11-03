@@ -30,7 +30,7 @@ author:
   name             : "Junlong Tong"
   name_zh          : "童俊龙"
   # avatar           : "images/profile.png"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "Southeast University" #"Your biography for the left-hand sidebar"
   location         : "Nanjing, China"
   employer         : 
@@ -69,7 +69,7 @@ author:
 author_zh:
   name             : "童俊龙"
   # avatar           : "images/profile.png"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "东南大学" #"Your biography for the left-hand sidebar"
   location         : "中国，南京"
   employer         : 
