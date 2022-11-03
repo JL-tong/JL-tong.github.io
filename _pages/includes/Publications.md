@@ -6,14 +6,14 @@
 	Submit to SIAM International Conference on Data Mining (SDM2023), 投稿中<br>  
     </li>
 <div class='paper-box'><div class='paper-box-image'>
-<div><img src='images/frame.png' alt="sym" width="60%"></div></div>
+<div><img src='https://jl-tong.github.io/images/frame.png' alt="sym" width="60%"></div></div>
 <div class='paper-box-text' markdown="1"></div></div>
 
-<table frame=void rules=none>
+<!-- <table frame=void rules=none>
     <tr>
-        <td> 这项工作基于Transformer和条件生成模型，提出一种分层概率预测和可解释预测框架。Transformer实现时间特征提取和初级自回归概率预测</td>
+        <td> 这项工作基于Transformer和条件生成模型，提出一种分层概率预测和可解释预测框架。Transformer实现时间特征提取和初级自回归概率预测；条件生成模型用于处理初级预测输出的概率分布</td>
     </tr>
-</table>
+</table> -->
 
 
 
