@@ -6,7 +6,7 @@
 	Submit to SIAM International Conference on Data Mining (SDM2023), 投稿中<br>  
     </li>
 <div class='paper-box'><div class='paper-box-image'>
-<div><img src='https://jl-tong.github.io/images/frame.png' alt="sym" width="100%"></div></div>
+<div><img src='https://jl-tong.github.io/images/frame.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1"></div></div>
 
 <!-- <table frame=void rules=none>
@@ -23,7 +23,7 @@
 	Energy Conversion and Management (中科院1区, IF=11.533), 2022, 已录用<br> 
     </li>
 <div class='paper-box'><div class='paper-box-image'>
-<div><img src='https://jl-tong.github.io/images/frame0.png' alt="sym" width="100%"></div></div>
+<div><img src='https://jl-tong.github.io/images/frame0.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1"></div></div>
 
 </ol> 
