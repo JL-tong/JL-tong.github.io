@@ -6,7 +6,7 @@
 	Submit to SIAM International Conference on Data Mining (SDM2023), 投稿中<br>  
     </li>
 <div class='paper-box'><div class='paper-box-image'>
-<div><img src='frame.png' alt="sym" width="60%"></div></div>
+<div><img src='images/frame.png' alt="sym" width="60%"></div></div>
 <div class='paper-box-text' markdown="1"></div></div>
 
 <table frame=void rules=none>
