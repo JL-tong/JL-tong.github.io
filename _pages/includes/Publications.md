@@ -8,12 +8,12 @@
 <div class='paper-box'><div class='paper-box-image'>
 <div><img src='frame.png' alt="sym" width="60%"></div></div>
 <div class='paper-box-text' markdown="1"></div></div>
-
-<table frame=void rules=none>
+这项工作基于Transformer和条件生成模型，提出一种分层概率预测和可解释预测框架。Transformer实现时间特征提取和初级自回归概率预测
+<!-- <table frame=void rules=none>
     <tr>
         <td> 这项工作基于Transformer和条件生成模型，提出一种分层概率预测和可解释预测框架。Transformer实现时间特征提取和初级自回归概率预测</td>
     </tr>
-</table>
+</table> -->
 
 
 
