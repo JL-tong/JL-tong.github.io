@@ -7,7 +7,7 @@
 
 * **2016/09 ~ 2020/07: &nbsp;&nbsp;&nbsp;上海电力大学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本科**
   * 专业：自动化
-  * GPA： 3.29 / 4.0 （排名前 10%）
+  * GPA： 3.31 / 4.0 （排名前 10%）
 
 
 
