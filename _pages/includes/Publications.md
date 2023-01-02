@@ -3,7 +3,7 @@
   <li><b>Probabilistic Decomposition Transformer for Time Series Forecasting.</b>
   <a href="https://arxiv.org/pdf/2210.17393.pdf" target="_blank" rel="noopener noreferrer">[PDF]</a>
   <a href="https://github.com/JL-tong/PDTrans" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
-	  <i><b>Junlong Tong</b>, Liping Xie, Wankou Yang, Kanjian Zhang<br></i>
+	  <i><b>Junlong Tong</b>, Liping Xie, Kanjian Zhang<br></i>
 	SIAM International Conference on Data Mining (SDM 2023), Accepted<br>  
     <div class='paper-box'><div class='paper-box-image'>
     <div><img src='https://jl-tong.github.io/images/frame.png' alt="sym" width="100%"></div></div>
