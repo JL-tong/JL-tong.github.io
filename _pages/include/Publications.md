@@ -13,7 +13,6 @@
 	  <i><b>Junlong Tong</b>, Liping Xie, Kanjian Zhang<br></i>
       SIAM International Conference on Data Mining (SDM 2023, CCF-B).<br> 
 	<!-- Submit to SIAM International Conference on Data Mining (SDM2023)<br>  -->
-<!-- 	<a href="https://github.com/YangLIN1997/YangLIN1997.github.io/blob/master/docs/SSDNet.pdf" target="_blank" rel="noopener noreferrer">[PDF]</a><br>  -->
     </li>
   
   <li><b>Hourly Solar Irradiance Forecasting Based on Encoder–decoder Model Using Series Decomposition and Dynamic Error Compensation.</b>
