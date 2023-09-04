@@ -1,6 +1,13 @@
 # Publications
 <ol>
-  <li><b>Probabilistic Decomposition Transformer for Time Series Forecasting.</b>
+  <li><b>Enhancing time series forecasting: A hierarchical transformer with probabilistic decomposition representation.</b>
+  <a href="https://doi.org/10.1016/j.ins.2023.119410" target="_blank" rel="noopener noreferrer">[PDF]</a>
+<!--   <a href="https://github.com/JL-tong/PDTrans" target="_blank" rel="noopener noreferrer">[Code]</a><br>  -->
+	  <i><b>Junlong Tong</b>, Liping Xie, Wankou Yang, Kanjian Zhang, Junsheng Zhao<br></i>
+      Information Sciences 2023.<br> 
+    </li>
+
+<li><b>Probabilistic Decomposition Transformer for Time Series Forecasting.</b>
   <a href="https://arxiv.org/pdf/2210.17393.pdf" target="_blank" rel="noopener noreferrer">[PDF]</a>
   <a href="https://github.com/JL-tong/PDTrans" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
 	  <i><b>Junlong Tong</b>, Liping Xie, Kanjian Zhang<br></i>
