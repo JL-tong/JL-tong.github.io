@@ -11,7 +11,7 @@
   <a href="https://arxiv.org/pdf/2210.17393.pdf" target="_blank" rel="noopener noreferrer">[PDF]</a>
   <a href="https://github.com/JL-tong/PDTrans" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
 	  <i><b>Junlong Tong</b>, Liping Xie, Kanjian Zhang<br></i>
-      SIAM International Conference on Data Mining (SDM 2023, CCF-B), Accepted<br> 
+      SIAM International Conference on Data Mining (SDM 2023, CCF-B).<br> 
 	<!-- Submit to SIAM International Conference on Data Mining (SDM2023)<br>  -->
 <!-- 	<a href="https://github.com/YangLIN1997/YangLIN1997.github.io/blob/master/docs/SSDNet.pdf" target="_blank" rel="noopener noreferrer">[PDF]</a><br>  -->
     </li>
