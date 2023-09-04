@@ -1,6 +1,6 @@
 # Publications
 <ol>
-  <li><b>Enhancing time series forecasting: A hierarchical transformer with probabilistic decomposition representation.</b>
+  <li><b>Enhancing Time Series Forecasting: A Hierarchical Transformer with Probabilistic Decomposition Representation.</b>
   <a href="https://doi.org/10.1016/j.ins.2023.119410" target="_blank" rel="noopener noreferrer">[PDF]</a><br> 
 <!--   <a href="https://github.com/JL-tong/PDTrans" target="_blank" rel="noopener noreferrer">[Code]</a><br>  -->
 	  <i><b>Junlong Tong</b>, Liping Xie, Wankou Yang, Kanjian Zhang, Junsheng Zhao<br></i>
