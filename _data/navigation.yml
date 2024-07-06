@@ -18,6 +18,6 @@ main:
   - title: "CV"
     url: /files/CV.pdf
 
-  - title: "中文"
-    url: /zh/
+  # - title: "中文"
+  #   url: /zh/
     
