@@ -13,7 +13,7 @@ title_zh                 : "主页"
 name                     : &name "Tong"
 description              : &description ""
 url                      : https://jl-tong.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-url_zh                   : https://jl-tong.github.io/zh # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+# url_zh                   : https://jl-tong.github.io/zh # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JL-tong/jl-tong.github.io/"
 
