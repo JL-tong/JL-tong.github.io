@@ -20,7 +20,6 @@ redirect_from:
 
 {% include_relative includes/Educations.md %}
 
-{% include_relative includes/HonorsAwards.md %}
 
 {% include_relative includes/Contact.md %}
 
