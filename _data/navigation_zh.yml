@@ -6,14 +6,14 @@ main:
   - title: "学术论文"
     url: "/#学术论文"
 
-  - title: "项目经历"
-    url: "/#项目经历"
+  # - title: "项目经历"
+  #   url: "/#项目经历"
 
   - title: "教育经历"
     url: "/#教育经历"
 
-  - title: "专业技能"
-    url: "/#专业技能"
+  # - title: "专业技能"
+  #   url: "/#专业技能"
 
   - title: "荣誉奖项"
     url: "/#荣誉奖项"
@@ -21,8 +21,8 @@ main:
   - title: "联系方式"
     url: "/#联系方式"
 
-  - title: "简历(pdf)"
-    url: /../docs/CV_zh.pdf
+  # - title: "简历(pdf)"
+  #   url: /../docs/CV_zh.pdf
 
   - title: "EN"
     url: /../
