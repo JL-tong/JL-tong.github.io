@@ -18,9 +18,6 @@ redirect_from:
 
 {% include_relative includes/Publications.md %}
 
-{% include_relative includes/Educations.md %}
-
-
 {% include_relative includes/Contact.md %}
 
 {% include_relative includes/placeholder.md %}
