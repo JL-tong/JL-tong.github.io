@@ -31,12 +31,12 @@ author:
   name_zh          : "童俊龙"
   # avatar           : "images/profile.png"
   avatar           : "profile.jpg"
-  bio              : "Southeast University" #"Your biography for the left-hand sidebar"
-  location         : "Nanjing, China"
+  bio              : "Shanghai Jiao Tong University" #"Your biography for the left-hand sidebar"
+  location         : "Shanghai, China"
   employer         : 
   pubmed           : #
-  googlescholar    : #
-  email            : "jltong@seu.edu.cn"
+  googlescholar    : "https://scholar.google.com/citations?user=Amv2QE8AAAAJ&hl"
+  email            : "jl-tong@sjtu.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
