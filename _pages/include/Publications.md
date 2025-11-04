@@ -4,7 +4,7 @@
   <li><b>StreamingThinker: Large Language Models Can Think While Reading.</b>
   <a href="https://arxiv.org/abs/2510.17238" target="_blank" rel="noopener noreferrer">[PDF]</a>
   <a href="https://github.com/EIT-NLP/StreamingLLM/tree/main/StreamingThinker" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
-	  <i><u>Junlong Tong</u>, Yingqi Fan, Yunpu Ma, Xiaoyu Shen.</i><br>  
+	  <i><u>Junlong Tong</u>, Yingqi Fan, Anhao Zhao, Yunpu Ma, Xiaoyu Shen.</i><br>  
       arXiv 2025.<br> 
     </li>
 
