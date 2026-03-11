@@ -1,4 +1,5 @@
 # Publications 
+A full list of publications can be found on [Google Scholar.](https://scholar.google.com/citations?user=Amv2QE8AAAAJ&hl=zh-CN&oi=ao)
 (* Equal Contribution, <sup>†</sup> Corresponding author)
 * **Streaming LLMs/MLLMs**
 <ol>
@@ -53,34 +54,34 @@
   <li><b>Context Guided Transformer Entropy Modeling for Video Compression.</b>
   <a href="https://openaccess.thecvf.com/content/ICCV2025/html/Tong_Context_Guided_Transformer_Entropy_Modeling_for_Video_Compression_ICCV_2025_paper.html" target="_blank" rel="noopener noreferrer">[PDF]</a><br> 
   <!-- <a href="https://github.com/EIT-NLP/StreamingLLM" target="_blank" rel="noopener noreferrer">[Code]</a><br>  -->
-	  <i><u>Junlong Tong</u>, Wei Zhang, Yaohui Jin, Xiaoyu Shen.</i><br> 
+	  <i><u>Junlong Tong</u>, Wei Zhang, Yaohui Jin, Xiaoyu Shen<sup>†</sup>.</i><br> 
       ICCV 2025.<br> 
     </li>
 
   <li><b>What Do Visual Tokens Really Encode? Uncovering Sparsity and Redundancy in Multimodal Large Language Models.</b>
   <a href="https://arxiv.org/abs/2603.00510" target="_blank" rel="noopener noreferrer">[PDF]</a><a href="https://github.com/EIT-NLP/EmbedLens" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
-	  <i>Yingqi Fan, <u>Junlong Tong</u>, Anhao Zhao, Xiaoyu Shen.</i><br> 
+	  <i>Yingqi Fan, <u>Junlong Tong</u>, Anhao Zhao, Xiaoyu Shen<sup>†</sup>.</i><br> 
       CVPR 2026.<br> 
     </li>
 
   <li><b>HiDrop: Hierarchical Vision Token Reduction in MLLMs via Late Injection, Concave Pyramid Pruning, and Early Exit
 </b>
   <a href="https://arxiv.org/abs/2602.23699" target="_blank" rel="noopener noreferrer">[PDF]</a><a href="https://github.com/EIT-NLP/HiDrop" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
-	  <i>Hao Wu, Yingqi Fan, Jinyang Dai, <u>Junlong Tong</u>, Yunpu Ma, Xiaoyu Shen</i><br> 
+	  <i>Hao Wu, Yingqi Fan, Jinyang Dai, <u>Junlong Tong</u>, Yunpu Ma, Xiaoyu Shen<sup>†</sup></i><br> 
       ICLR 2026.<br> 
     </li>
 
   <li><b>VisiPruner: Decoding Discontinuous Cross-Modal Dynamics for Efficient Multimodal LLMs.</b>
   <a href="https://arxiv.org/abs/2510.17205" target="_blank" rel="noopener noreferrer">[PDF]</a><br> 
   <!-- <a href="https://github.com/EIT-NLP/StreamingLLM" target="_blank" rel="noopener noreferrer">[Code]</a><br>  -->
-	  <i>Yingqi Fan, Anhao Zhao, Jinlan Fu, <u>Junlong Tong</u>, Hui Su, Yijie Pan, Wei Zhang, Xiaoyu Shen.</i><br> 
+	  <i>Yingqi Fan, Anhao Zhao, Jinlan Fu, <u>Junlong Tong</u>, Hui Su, Yijie Pan, Wei Zhang, Xiaoyu Shen<sup>†</sup>.</i><br> 
       EMNLP 2025.<br> 
     </li>
 
   <li><b>SkipGPT: Each Token is One of a Kind.</b>
   <a href="https://arxiv.org/abs/2506.04179" target="_blank" rel="noopener noreferrer">[PDF]</a>
   <a href="https://github.com/EIT-NLP/SkipGPT" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
-	  <i>Anhao Zhao, Fanghua Ye, Yingqi Fan, <u>Junlong Tong</u>, Jing Xiong, Zhiwei Fei, Hui Su, Xiaoyu Shen.</i><br> 
+	  <i>Anhao Zhao, Fanghua Ye, Yingqi Fan, <u>Junlong Tong</u>, Jing Xiong, Zhiwei Fei, Hui Su, Xiaoyu Shen<sup>†</sup>.</i><br> 
       ICML 2025.<br> 
     </li>
 
