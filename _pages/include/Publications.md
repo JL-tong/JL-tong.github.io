@@ -1,5 +1,5 @@
 # Publications 
-A full list of publications can be found on [Google Scholar.](https://scholar.google.com/citations?user=Amv2QE8AAAAJ&hl=zh-CN&oi=ao)
+A full list of publications can be found on [Google Scholar.](https://scholar.google.com/citations?user=Amv2QE8AAAAJ&hl=zh-CN&oi=ao)  
 (* Equal Contribution, <sup>†</sup> Corresponding author)
 * **Streaming LLMs/MLLMs**
 <ol>
