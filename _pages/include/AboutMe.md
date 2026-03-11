@@ -1,7 +1,7 @@
 # About Me
 I’m Junlong Tong, a Ph.D. candidate in Computer Science at Shanghai Jiao Tong University and Eastern Institute of Technology (supervised by Dr. [Xiaoyu Shen](https://faculty.eitech.edu.cn/cist/sxy/main.htm)), expected to graduate in June 2027. 
 
-My research centers on **efficient LLMs/LLMs**, with the goal of enabling multimodal large language models to operate in dynamic real-world environments with low latency and low computational cost. Within this broad framework, I focus on two closely related directions: 
+My research centers on **efficient LLMs/MLLMs**, with the goal of enabling multimodal large language models to operate in dynamic real-world environments with low latency and low computational cost. Within this broad framework, I focus on two closely related directions: 
 * **Streaming LLMs/MLLMs**, which study *real-time perception, concurrent reasoning, and proactive interaction* over continuous inputs. 
 * **LLMs/MLLMs compression and acceleration**, which investigate *data/token/KV cache compression, layer pruning, and efficient inference* for scalable deployment.
 
