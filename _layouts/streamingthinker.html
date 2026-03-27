@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.venue %}{{ page.title }} | {{ page.venue }}{% else %}{{ page.title }}{% endif %}</title>
+    <meta name="description" content="{{ page.description | strip_html | strip_newlines | escape }}">
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <meta name="googlebot" content="noindex, nofollow, noarchive">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ page.title | escape }}">
+    <meta property="og:description" content="{{ page.description | strip_html | strip_newlines | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ page.og_image | absolute_url }}">
+
+    <meta name="citation_title" content="{{ page.title | escape }}">
+    {% for author in page.citation_authors %}
+    <meta name="citation_author" content="{{ author | escape }}">
+    {% endfor %}
+    {% if page.venue %}
+    <meta name="citation_conference_title" content="{{ page.venue | escape }}">
+    {% endif %}
+    {% if page.paper_pdf_url %}
+    <meta name="citation_pdf_url" content="{{ page.paper_pdf_url | escape }}">
+    {% endif %}
+    {% if page.paper_url %}
+    <meta name="citation_public_url" content="{{ page.paper_url | escape }}">
+    {% endif %}
+
+    <link rel="stylesheet" href="{{ '/streamingthinker/static/css/index.css' | relative_url }}">
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>

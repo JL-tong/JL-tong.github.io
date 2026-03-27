@@ -1,0 +1,475 @@
+:root {
+  --bg: #f7f2ea;
+  --paper: rgba(255, 253, 248, 0.9);
+  --ink: #1f2430;
+  --muted: #5f6570;
+  --line: rgba(31, 36, 48, 0.12);
+  --accent: #0f6c66;
+  --accent-strong: #0a4c49;
+  --accent-soft: rgba(15, 108, 102, 0.12);
+  --warm: #a55d34;
+  --shadow: 0 18px 50px rgba(35, 35, 35, 0.08);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(165, 93, 52, 0.10), transparent 32%),
+    radial-gradient(circle at top right, rgba(15, 108, 102, 0.10), transparent 28%),
+    linear-gradient(180deg, #f7f2ea 0%, #fbf8f3 40%, #f2eee7 100%);
+  color: var(--ink);
+  font-family: "Iowan Old Style", "Palatino Linotype", "URW Palladio L", serif;
+  line-height: 1.65;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+}
+
+.st-shell {
+  width: min(1120px, calc(100vw - 32px));
+  margin: 0 auto;
+}
+
+.st-page {
+  padding-bottom: 48px;
+}
+
+.st-hero {
+  padding: 72px 0 44px;
+}
+
+.st-hero__inner {
+  background: linear-gradient(180deg, rgba(255, 253, 248, 0.94), rgba(255, 250, 244, 0.90));
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  box-shadow: var(--shadow);
+  padding: 52px clamp(24px, 4vw, 56px);
+  position: relative;
+  overflow: hidden;
+}
+
+.st-hero__inner::after {
+  content: "";
+  position: absolute;
+  inset: auto -100px -80px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(15, 108, 102, 0.16), transparent 68%);
+  pointer-events: none;
+}
+
+.st-kicker,
+.st-method__eyebrow {
+  margin: 0 0 10px;
+  font-family: "Avenir Next", "Trebuchet MS", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.st-title,
+.st-section-title,
+.st-teaser-headline,
+.st-method__copy h3,
+.st-card h3,
+.st-result-title {
+  font-family: "Avenir Next", "Trebuchet MS", sans-serif;
+  letter-spacing: -0.03em;
+}
+
+.st-title {
+  width: 100%;
+  margin: 0;
+  font-size: clamp(2.2rem, 4vw, 3.3rem);
+  line-height: 1;
+}
+
+.st-title__row {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  text-align: justify;
+  text-align-last: justify;
+  word-spacing: 0.05em;
+}
+
+.st-title__row + .st-title__row {
+  margin-top: 0.08em;
+}
+
+.st-title__row::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.st-subtitle {
+  margin: 22px 0 0;
+  max-width: 840px;
+  font-size: 1.1rem;
+  color: var(--muted);
+}
+
+.st-authors,
+.st-affiliations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin-top: 24px;
+}
+
+.st-authors {
+  font-family: "Avenir Next", "Trebuchet MS", sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.st-authors span,
+.st-affiliations span {
+  display: inline-block;
+}
+
+.st-authors sup,
+.st-affiliations sup {
+  font-size: 0.62em;
+  line-height: 0;
+  position: relative;
+  top: -0.7em;
+}
+
+.st-affiliations {
+  color: var(--muted);
+  font-size: 0.98rem;
+}
+
+.st-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.st-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 132px;
+  padding: 12px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: #fffdf8;
+  font-family: "Avenir Next", "Trebuchet MS", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+}
+
+.st-button:hover,
+.st-button:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(31, 36, 48, 0.16);
+  background: #131720;
+}
+
+.st-section {
+  padding: 28px 0;
+}
+
+.st-section-title {
+  margin: 0 0 18px;
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+}
+
+.st-section-box,
+.st-section-panel,
+.st-card,
+.st-method,
+.st-metric,
+.st-result-block,
+.st-code {
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: var(--paper);
+  box-shadow: 0 12px 30px rgba(31, 36, 48, 0.05);
+}
+
+.st-section-box,
+.st-section-panel,
+.st-card,
+.st-metric,
+.st-result-block,
+.st-code {
+  padding: 22px;
+}
+
+.st-content p,
+.st-card p,
+.st-method__copy p,
+.st-teaser-text,
+.st-result-text,
+.st-contact p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.st-content p + p,
+.st-contact p + p {
+  margin-top: 16px;
+}
+
+.st-teaser-headline {
+  margin: 0 0 14px;
+  font-size: clamp(2rem, 4vw, 3rem);
+  max-width: 14ch;
+}
+
+.st-inline-points {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.st-inline-points li {
+  padding: 9px 12px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  font-family: "Avenir Next", "Trebuchet MS", sans-serif;
+  font-size: 0.94rem;
+  font-weight: 700;
+}
+
+.st-figure {
+  margin: 24px 0 0;
+}
+
+.st-figure img,
+.st-result-figure img,
+.st-method__figure img {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+
+.st-figure figcaption {
+  margin-top: 12px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.st-highlights {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.st-card h3 {
+  margin: 0 0 10px;
+  font-size: 1.16rem;
+}
+
+.st-method {
+  display: grid;
+  grid-template-columns: minmax(0, 0.88fr) minmax(0, 1.12fr);
+  gap: 26px;
+  align-items: center;
+  margin-top: 24px;
+  padding: 24px;
+}
+
+.st-method--reverse {
+  grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.88fr);
+}
+
+.st-method--reverse .st-method__copy {
+  order: 2;
+}
+
+.st-method--reverse .st-method__figure {
+  order: 1;
+}
+
+.st-method__copy h3 {
+  margin: 0 0 12px;
+  font-size: clamp(1.4rem, 2vw, 1.8rem);
+}
+
+.st-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.st-metric__value {
+  display: block;
+  font-family: "Avenir Next", "Trebuchet MS", sans-serif;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  color: var(--accent-strong);
+}
+
+.st-metric__label {
+  margin: 10px 0 0;
+  font-family: "Avenir Next", "Trebuchet MS", sans-serif;
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.st-results-note {
+  max-width: 880px;
+  margin: 20px 0 0;
+  color: var(--muted);
+}
+
+.st-result-stack {
+  display: grid;
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.st-result-title {
+  margin: 0;
+  font-size: 1.28rem;
+}
+
+.st-result-text {
+  margin-top: 10px;
+}
+
+.st-result-figure {
+  margin: 16px 0 0;
+}
+
+.st-code {
+  margin: 0;
+  overflow-x: auto;
+  color: var(--ink);
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+}
+
+.st-code code {
+  font-family: "SFMono-Regular", "Consolas", "Liberation Mono", monospace;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.st-contact a {
+  color: var(--accent-strong);
+  font-weight: 700;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.14em;
+}
+
+.st-footer {
+  padding: 0 0 40px;
+}
+
+.st-footer p {
+  margin: 0;
+  text-align: center;
+  font-family: "Avenir Next", "Trebuchet MS", sans-serif;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+@media (max-width: 1080px) {
+  .st-highlights,
+  .st-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .st-method,
+  .st-method--reverse {
+    grid-template-columns: 1fr;
+  }
+
+  .st-method--reverse .st-method__copy,
+  .st-method--reverse .st-method__figure {
+    order: initial;
+  }
+}
+
+@media (max-width: 720px) {
+  .st-shell {
+    width: min(100vw - 20px, 1120px);
+  }
+
+  .st-hero {
+    padding-top: 42px;
+  }
+
+  .st-hero__inner,
+  .st-section-box,
+  .st-section-panel,
+  .st-card,
+  .st-method,
+  .st-metric,
+  .st-result-block,
+  .st-code {
+    border-radius: 20px;
+  }
+
+  .st-title {
+    font-size: clamp(2.2rem, 8vw, 3rem);
+  }
+
+  .st-title__row {
+    text-align: left;
+    text-align-last: auto;
+    word-spacing: normal;
+  }
+
+  .st-title__row::after {
+    display: none;
+  }
+
+  .st-highlights,
+  .st-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .st-actions {
+    gap: 10px;
+  }
+
+  .st-button {
+    flex: 1 1 100%;
+  }
+
+  .st-authors,
+  .st-affiliations {
+    flex-direction: column;
+    gap: 8px;
+  }
+}

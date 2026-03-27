@@ -1,0 +1,295 @@
+---
+layout: streamingthinker
+title: "StreamingThinker: Large Language Models Can Think While Reading"
+permalink: /streamingthinker/
+sitemap: false
+description: "StreamingThinker introduces a streaming thinking paradigm that lets large language models reason while reading, combining streaming CoT generation, streaming-constrained training, and parallel inference."
+venue: "ICLR 2026"
+paper_url: "https://arxiv.org/abs/2510.17238"
+paper_pdf_url: "https://arxiv.org/pdf/2510.17238.pdf"
+code_url: "https://github.com/EIT-NLP/StreamingLLM/tree/main/StreamingThinker"
+og_image: "/streamingthinker/static/images/CoT.png"
+citation_authors:
+  - "Tong, Junlong"
+  - "Fan, Yingqi"
+  - "Zhao, Anhao"
+  - "Ma, Yunpu"
+  - "Shen, Xiaoyu"
+---
+
+<main class="st-page">
+  <section class="st-hero">
+    <div class="st-shell st-hero__inner">
+      <p class="st-kicker">ICLR 2026 · Project Page</p>
+      <h1 class="st-title">
+        <span class="st-title__row">StreamingThinker: Large Language Models</span>
+        <span class="st-title__row">Can Think While Reading</span>
+      </h1>
+      <p class="st-subtitle">
+        A streaming reasoning framework that aligns reading and thinking, enabling large language models to
+        start reasoning before the full input has arrived.
+      </p>
+
+      <div class="st-authors">
+        <span>Junlong Tong<sup>1,2,3</sup></span>
+        <span>Yingqi Fan<sup>2</sup></span>
+        <span>Anhao Zhao<sup>2,4</sup></span>
+        <span>Yunpu Ma<sup>5</sup></span>
+        <span>Xiaoyu Shen<sup>2,3*</sup></span>
+      </div>
+
+      <div class="st-affiliations">
+        <span><sup>1</sup>Shanghai Jiao Tong University</span>
+        <span><sup>2</sup>Eastern Institute of Technology, Ningbo</span>
+        <span><sup>3</sup>Ningbo Key Laboratory of Spatial Intelligence and Digital Derivative, Institute of Digital Twin</span>
+        <span><sup>4</sup>Hong Kong Polytechnic University</span>
+        <span><sup>5</sup>Munich Center for Machine Learning, LMU</span>
+        <span><sup>*</sup>Corresponding author</span>
+      </div>
+
+      <div class="st-actions">
+        <a class="st-button" href="{{ page.paper_url }}">Paper</a>
+        <a class="st-button" href="{{ page.code_url }}">Code</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="st-section">
+    <div class="st-shell">
+      <div class="st-section-box st-teaser-box">
+        <h2 class="st-section-title">Teaser</h2>
+        <!-- <h3 class="st-teaser-headline">Streaming reasoning starts before the document is complete</h3> -->
+        <p class="st-teaser-text">
+          StreamingThinker departs from batch-style reasoning by letting the model read incremental evidence,
+          form lightweight local reasoning, and deepen the final answer only after enough context has arrived.
+        </p>
+        <ul class="st-inline-points">
+          <li>Order-preserving reasoning</li>
+          <li>Separate source and reasoning states</li>
+          <li>Latency-aware reasoning depth</li>
+        </ul>
+
+        <figure class="st-figure st-figure--wide">
+          <img src="{{ '/streamingthinker/static/images/combined.gif' | relative_url }}" alt="Batch thinking versus streaming thinking" loading="lazy">
+          <figcaption>
+            Demo: batch thinking of original LLM waits for the full input, while streaming thinking unfolds alongside arriving context.
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="st-section">
+    <div class="st-shell">
+      <div class="st-section-box st-content">
+        <h2 class="st-section-title">Abstract</h2>
+        <p>
+          Large language models have become strong chain-of-thought reasoners, but standard inference still assumes a
+          batch setting: the model waits until the entire input is available before starting to think. StreamingThinker
+          introduces a streaming thinking paradigm in which reasoning follows the order of incoming evidence and can
+          deepen once the full input has been observed. The framework combines streaming CoT generation,
+          streaming-constrained training, and streaming parallel inference so that reading and reasoning can proceed
+          concurrently while preserving order alignment.
+          On the Qwen3 model family, the paper reports reasoning quality comparable to batch thinking together with
+          substantial latency gains: roughly 80% less waiting before reasoning begins and more than 60% lower
+          time-level latency for the final answer across math, logical reasoning, and context-based QA tasks.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="st-section">
+    <div class="st-shell">
+      <div class="st-section-panel">
+        <h2 class="st-section-title">Highlights</h2>
+        <div class="st-highlights">
+          <article class="st-card">
+            <h3>Streaming thinking paradigm</h3>
+            <p>
+              Reasoning is synchronized with arriving text instead of being deferred until the full context is complete.
+            </p>
+          </article>
+          <article class="st-card">
+            <h3>Three aligned mechanisms</h3>
+            <p>
+              Streaming CoT supervision, streaming-constrained training, and parallel inference work together as a
+              single stack.
+            </p>
+          </article>
+          <article class="st-card">
+            <h3>Comparable quality</h3>
+            <p>
+              The framework is designed to keep reasoning performance close to batch thinking while changing when
+              reasoning happens.
+            </p>
+          </article>
+          <article class="st-card">
+            <h3>Latency reduction</h3>
+            <p>
+              The paper reports around 80% less waiting before reasoning onset and more than 60% lower final-answer
+              latency.
+            </p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="st-section">
+    <div class="st-shell">
+      <div class="st-section-panel">
+        <h2 class="st-section-title">Method</h2>
+
+        <article class="st-method">
+          <div class="st-method__copy">
+            <p class="st-method__eyebrow">01</p>
+            <h3>Streaming CoT generation</h3>
+            <p>
+              StreamingThinker constructs supervision that follows sentence-level boundaries. The model learns to
+              summarize key information, explain ambiguities, extend implications, and skip unnecessary local reasoning
+              when the current stream segment is not useful.
+            </p>
+          </div>
+          <figure class="st-method__figure">
+            <img src="{{ '/streamingthinker/static/images/CoT.png' | relative_url }}" alt="Streaming CoT generation diagram" loading="lazy">
+          </figure>
+        </article>
+
+        <article class="st-method st-method--reverse">
+          <div class="st-method__copy">
+            <p class="st-method__eyebrow">02</p>
+            <h3>Streaming-constrained training</h3>
+            <p>
+              Training enforces order-preserving reasoning with streaming attention masks and decoupled position
+              encoding. This keeps each reasoning step tied to the evidence already seen and avoids positional
+              contention between source tokens and reasoning tokens.
+            </p>
+          </div>
+          <figure class="st-method__figure">
+            <img src="{{ '/streamingthinker/static/images/Train.png' | relative_url }}" alt="Streaming-constrained training diagram" loading="lazy">
+          </figure>
+        </article>
+
+        <article class="st-method">
+          <div class="st-method__copy">
+            <p class="st-method__eyebrow">03</p>
+            <h3>Streaming parallel inference</h3>
+            <p>
+              At inference time, separate KV caches are maintained for source-side reading and target-side reasoning.
+              This decoupling enables true concurrency: the model can continue ingesting new input while generating
+              reasoning tokens instead of alternating between the two in a fully serial loop.
+            </p>
+          </div>
+          <figure class="st-method__figure">
+            <img src="{{ '/streamingthinker/static/images/Inference.png' | relative_url }}" alt="Streaming parallel inference diagram" loading="lazy">
+          </figure>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="st-section">
+    <div class="st-shell">
+      <div class="st-section-panel">
+        <h2 class="st-section-title">Results</h2>
+
+        <div class="st-metrics">
+          <article class="st-metric">
+            <span class="st-metric__value">~80%</span>
+            <p class="st-metric__label">less token waiting before reasoning begins</p>
+          </article>
+          <article class="st-metric">
+            <span class="st-metric__value">&gt;60%</span>
+            <p class="st-metric__label">lower time-level latency for the final answer</p>
+          </article>
+          <article class="st-metric">
+            <span class="st-metric__value">Qwen3</span>
+            <p class="st-metric__label">validated across math, logic, and context-based QA</p>
+          </article>
+          <article class="st-metric">
+            <span class="st-metric__value">Comparable</span>
+            <p class="st-metric__label">reasoning performance relative to batch thinking</p>
+          </article>
+        </div>
+
+        <p class="st-results-note">
+          Below are direct screenshots from the paper for the three most relevant streaming result tables: real
+          streaming evaluation, context-first streaming evaluation, and efficiency breakdown.
+        </p>
+
+        <div class="st-result-stack">
+          <article class="st-result-block">
+            <h3 class="st-result-title">Table · Real streaming setting</h3>
+            <p class="st-result-text">
+              The main streaming comparison: batch thinking, naive interleaving, and parallel StreamingThinker.
+            </p>
+            <figure class="st-result-figure">
+              <img src="{{ '/streamingthinker/static/images/tables/table2.png' | relative_url }}" alt="Table 2 from the paper showing real streaming results" loading="lazy">
+            </figure>
+          </article>
+
+          <article class="st-result-block">
+            <h3 class="st-result-title">Table · Context-first streaming setting</h3>
+            <p class="st-result-text">
+              The context-first order is harder because the question arrives later. The paper reports that the model
+              still preserves strong early-response behavior in this setting.
+            </p>
+            <figure class="st-result-figure">
+              <img src="{{ '/streamingthinker/static/images/tables/table3.png' | relative_url }}" alt="Table 3 from the paper showing context-first streaming results" loading="lazy">
+            </figure>
+          </article>
+
+          <article class="st-result-block">
+            <h3 class="st-result-title">Table · Streaming efficiency breakdown</h3>
+            <p class="st-result-text">
+              The efficiency breakdown shows where the latency reduction comes from in the parallel streaming pipeline.
+            </p>
+            <figure class="st-result-figure">
+              <img src="{{ '/streamingthinker/static/images/tables/table4.png' | relative_url }}" alt="Table 4 from the paper showing efficiency analysis" loading="lazy">
+            </figure>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="st-section">
+    <div class="st-shell">
+      <div class="st-section-panel">
+        <h2 class="st-section-title">BibTeX</h2>
+        <pre class="st-code">
+        <code>@misc{https://doi.org/10.48550/arxiv.2510.17238,
+            doi = {10.48550/ARXIV.2510.17238},
+            url = {https://arxiv.org/abs/2510.17238},
+            author = {Tong, Junlong and Fan, Yingqi and Zhao, Anhao and Ma, Yunpu and Shen, Xiaoyu},
+            title = {StreamingThinker: Large Language Models Can Think While Reading},
+            publisher = {arXiv},
+            year = {2025}
+            }
+        </code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section class="st-section">
+    <div class="st-shell">
+      <div class="st-section-panel">
+        <h2 class="st-section-title">Contact</h2>
+        <div class="st-contact">
+          <p>
+            For questions about the project, please contact
+            <a href="mailto:jl-tong@sjtu.edu.cn">jl-tong@sjtu.edu.cn</a>
+            or
+            <a href="mailto:xyshen@eitech.edu.cn">xyshen@eitech.edu.cn</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="st-footer">
+  <div class="st-shell">
+    <p>ICLR 2026 · <i>StreamingThinker</i> project page </p>
+  </div>
+</footer>
