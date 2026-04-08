@@ -4,6 +4,14 @@ A full list of publications can be found on [Google Scholar.](https://scholar.go
 * **Streaming LLMs/MLLMs**
 <ol>
 
+
+  <li><b>From Static Inference to Dynamic Interaction: A Survey of Streaming Large Language Models.</b>
+  <a href="https://arxiv.org/abs/2603.04592" target="_blank" rel="noopener noreferrer">[PDF]</a>
+  <a href="https://github.com/EIT-NLP/Awesome-Streaming-LLMs" target="_blank" rel="noopener noreferrer">[Repository]</a><br> 
+	  <i><u>Junlong Tong</u>, Zilong Wang, YuJie Ren, Peiran Yin, Hao Wu, Wei Zhang, Xiaoyu Shen<sup>†</sup>.</i><br>  
+      Findings of ACL 2026.<br> 
+    </li> 
+
   <li><b>StreamingThinker: Large Language Models Can Think While Reading.</b>
   <a href="https://arxiv.org/abs/2510.17238" target="_blank" rel="noopener noreferrer">[PDF]</a>
   <a href="https://github.com/EIT-NLP/StreamingLLM/tree/main/StreamingThinker" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
@@ -31,13 +39,6 @@ A full list of publications can be found on [Google Scholar.](https://scholar.go
       Under review<br> 
     </li>
 
-  <li><b>From Static Inference to Dynamic Interaction: A Survey of Streaming Large Language Models.</b>
-  <a href="https://arxiv.org/abs/2603.04592" target="_blank" rel="noopener noreferrer">[PDF]</a>
-  <a href="https://github.com/EIT-NLP/Awesome-Streaming-LLMs" target="_blank" rel="noopener noreferrer">[Repository]</a><br> 
-	  <i><u>Junlong Tong</u>, Zilong Wang, YuJie Ren, Peiran Yin, Hao Wu, Wei Zhang, Xiaoyu Shen<sup>†</sup>.</i><br>  
-      Under review<br> 
-    </li> 
-
   <li><b>Speak While Watching: Unleashing TRUE Real-Time Video Understanding Capability of Multimodal Large Language Models.</b>
   <a href="https://arxiv.org/abs/2601.06843" target="_blank" rel="noopener noreferrer">[PDF]</a><a href="https://github.com/EIT-NLP/Speak-While-Watching" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
 	  <i>Junyan Lin*, <u>Junlong Tong*</u>, Hao Wu, Jialiang Zhang, Jinming Liu, Xin Jin, Xiaoyu Shen<sup>†</sup>. </i><br> 
@@ -48,12 +49,11 @@ A full list of publications can be found on [Google Scholar.](https://scholar.go
 
 
 
-* **LLMs/MLLMs compression and acceleration**
+* **LLMs/MLLMs compression and pruning**
 <ol>
 
   <li><b>Context Guided Transformer Entropy Modeling for Video Compression.</b>
   <a href="https://openaccess.thecvf.com/content/ICCV2025/html/Tong_Context_Guided_Transformer_Entropy_Modeling_for_Video_Compression_ICCV_2025_paper.html" target="_blank" rel="noopener noreferrer">[PDF]</a><br> 
-  <!-- <a href="https://github.com/EIT-NLP/StreamingLLM" target="_blank" rel="noopener noreferrer">[Code]</a><br>  -->
 	  <i><u>Junlong Tong</u>, Wei Zhang, Yaohui Jin, Xiaoyu Shen<sup>†</sup>.</i><br> 
       ICCV 2025.<br> 
     </li>
@@ -100,7 +100,23 @@ A full list of publications can be found on [Google Scholar.](https://scholar.go
 
 * **LLM for Sequence Modeling**
 <ol>
-<li><b>Probabilistic Decomposition Transformer for Time Series Forecasting.</b>
+
+  <li><b>Rethinking the Role of LLMs in Time Series Forecasting.</b>
+  <a href="https://arxiv.org/abs/2602.14744" target="_blank" rel="noopener noreferrer">[PDF]</a>
+  <a href="https://github.com/EIT-NLP/LLM4TSF" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
+	  <i>Xin Qiu*, <u>Junlong Tong*</u>, Yirong Sun, Yunpu Ma, Wei Zhang, Xiaoyu Shen<sup>†</sup>.</i><br>  
+      Under review<br> 
+    </li> 
+
+
+  <li><b>The Few Govern the Many: Unveiling Few-Layer Dominance for Time Series Models.</b>
+  <a href="https://arxiv.org/abs/2511.07237" target="_blank" rel="noopener noreferrer">[PDF]</a>
+  <a href="https://github.com/EIT-NLP/LLM4TSF" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
+	  <i>Xin Qiu*, <u>Junlong Tong*</u>, Yirong Sun, Yunpu Ma, Xiaoyu Shen<sup>†</sup>.</i><br>  
+      Under review<br> 
+    </li> 
+
+  <li><b>Probabilistic Decomposition Transformer for Time Series Forecasting.</b>
   <a href="https://doi.org/10.1137/1.9781611977653.ch54" target="_blank" rel="noopener noreferrer">[PDF]</a>
   <a href="https://github.com/JL-tong/PDTrans" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
 	  <i><u>Junlong Tong</u>, Liping Xie, Kanjian Zhang.</i><br> 
@@ -119,21 +135,5 @@ A full list of publications can be found on [Google Scholar.](https://scholar.go
 	<i><u>Junlong Tong</u>, Liping Xie, Shixiong Fang, Wankou Yang, Kanjian Zhang.</i><br> 
 	Energy Conversion and Management 2022.<br> 
     </li>
-
-  <li><b>Rethinking the Role of LLMs in Time Series Forecasting.</b>
-  <a href="https://arxiv.org/abs/2602.14744" target="_blank" rel="noopener noreferrer">[PDF]</a>
-  <a href="https://github.com/EIT-NLP/LLM4TSF" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
-	  <i>Xin Qiu, <u>Junlong Tong</u>, Yirong Sun, Yunpu Ma, Wei Zhang, Xiaoyu Shen<sup>†</sup>.</i><br>  
-      Under review<br> 
-    </li> 
-
-
-  <li><b>The Few Govern the Many: Unveiling Few-Layer Dominance for Time Series Models.</b>
-  <a href="https://arxiv.org/abs/2511.07237" target="_blank" rel="noopener noreferrer">[PDF]</a>
-  <a href="https://github.com/EIT-NLP/LLM4TSF" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
-	  <i>Xin Qiu, <u>Junlong Tong</u>, Yirong Sun, Yunpu Ma, Xiaoyu Shen<sup>†</sup>.</i><br>  
-      Under review<br> 
-    </li> 
-
 
 </ol>
