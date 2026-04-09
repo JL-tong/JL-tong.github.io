@@ -1,18 +1,22 @@
 # About Me
-I’m Junlong Tong, a Ph.D. candidate in Computer Science at Shanghai Jiao Tong University and Eastern Institute of Technology (supervised by Dr. [Xiaoyu Shen](https://faculty.eitech.edu.cn/cist/sxy/main.htm)), expected to graduate in June 2027. 
+I’m Junlong Tong, a Ph.D. candidate in Computer Science at Shanghai Jiao Tong University and Eastern Institute of Technology (supervised by Dr. [Xiaoyu Shen](https://faculty.eitech.edu.cn/cist/sxy/main.htm)).
+<!-- , expected to graduate in June 2027.  -->
 
-My research centers on **efficient LLMs/MLLMs**, with the goal of enabling multimodal large language models to operate in dynamic real-world environments with low latency and low computational cost. Within this broad framework, I focus on two closely related directions: 
+<!-- My research centers on **efficient LLMs/MLLMs**, with the goal of enabling multimodal large language models to operate in dynamic real-world environments with low latency and low computational cost. Within this broad framework, I focus on two closely related directions:
 * **Streaming LLMs/MLLMs**, which study *real-time perception, concurrent reasoning, and proactive interaction* over continuous inputs. 
-* **LLMs/MLLMs compression and acceleration**, which investigate *data/token/KV cache compression, layer pruning, and efficient inference* for scalable deployment.
+* **LLMs/MLLMs compression and acceleration**, which investigate *data/token/KV cache compression, layer pruning, and efficient inference* for scalable deployment. -->
 
-More broadly, I aim to build multimodal foundation models that support continuous real-time perception and reasoning, while achieving the efficiency and scalability required for deployment in dynamic real-world environments.
-I also have research experience in *LLMs for time series modeling*.
+My research focuses on **multimodal foundation models for dynamic real-world environments, with the goal of enabling models to perceive, reason, and interact continuously and proactively in real time.** In particular, I focus on two complementary directions:
+* **Streaming LLMs/MLLMs**, which study *real-time perception, concurrent reasoning, and proactive interaction* over continuous inputs. 
+* **Efficient LLMs/MLLMs**, which investigate *data/token/KV cache compression, layer pruning, and efficient inference* for scalable deployment.
+
+More broadly, I aim to build multimodal foundation models that are both capable in continuous real-world settings and efficient enough for practical deployment at scale. I also have research experience in *LLMs for time-series modeling*, which complements my broader interest in temporal modeling over continuous data.
 
 
 <br>
 <p>
-  💡 <span style="color: #d63031; font-weight: bold;">Looking for Internships & Collaborations:</span> 
-  I am actively seeking an LLM/MLLM research internship and am always open to academic collaborations. Feel free to reach out to me via <a href="jl-tong@sjtu.edu.cn">jl-tong@sjtu.edu.cn</a>!
+  💡 <span style="color: #d63031; font-weight: bold;">Seeking Research Internship Opportunities & Collaborations:</span> 
+  I am actively seeking research internship opportunities in LLMs/MLLMs and am always open to academic collaborations. Feel free to reach out to me via <a href="jl-tong@sjtu.edu.cn">jl-tong@sjtu.edu.cn</a>!
 </p>
 
 

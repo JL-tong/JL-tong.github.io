@@ -1,7 +1,7 @@
 # Publications 
 A full list of publications can be found on [Google Scholar.](https://scholar.google.com/citations?user=Amv2QE8AAAAJ&hl=zh-CN&oi=ao)  
 (* Equal Contribution, <sup>†</sup> Corresponding author)
-* **Streaming LLMs/MLLMs**
+* <span style="color: #a85d5d; font-weight: 600;">Streaming LLMs/MLLMs</span> (<a href="https://github.com/EIT-NLP/StreamingLLM">Demo</a>)
 <ol>
 
 
@@ -14,13 +14,16 @@ A full list of publications can be found on [Google Scholar.](https://scholar.go
 
   <li><b>StreamingThinker: Large Language Models Can Think While Reading.</b>
   <a href="https://arxiv.org/abs/2510.17238" target="_blank" rel="noopener noreferrer">[PDF]</a>
-  <a href="https://github.com/EIT-NLP/StreamingLLM/tree/main/StreamingThinker" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
+  <a href="https://github.com/EIT-NLP/StreamingLLM/tree/main/StreamingThinker" target="_blank" rel="noopener noreferrer">[Code]</a>
+  <a href="http://jl-tong.github.io/streamingthinker" target="_blank" rel="noopener noreferrer">[Project]</a><br> 
 	  <i><u>Junlong Tong</u>, Yingqi Fan, Anhao Zhao, Yunpu Ma, Xiaoyu Shen<sup>†</sup>.</i><br>  
       ICLR 2026.<br> 
     </li>
 
   <li><b>Think-as-You-See: Streaming Chain-of-Thought Reasoning for Large Vision-Language Models.</b>
-  <a href="https://arxiv.org/abs/2603.02872" target="_blank" rel="noopener noreferrer">[PDF]</a><a href="https://github.com/EIT-NLP/StreamingLLM/tree/main/TaYS" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
+  <a href="https://arxiv.org/abs/2603.02872" target="_blank" rel="noopener noreferrer">[PDF]</a>
+  <a href="https://github.com/EIT-NLP/StreamingLLM/tree/main/TaYS" target="_blank" rel="noopener noreferrer">[Code]</a>
+  <a href="https://jialiangz.github.io/tays-project-page" target="_blank" rel="noopener noreferrer">[Project]</a><br> 
 	  <i>Jialiang Zhang*, <u>Junlong Tong*</u>, Junyan Lin, Hao Wu, Yunpu Ma, Xiaoyu Shen<sup>†</sup>. (* Equal Contribution)</i><br> 
       CVPR 2026. <br> 
     </li>
@@ -49,7 +52,7 @@ A full list of publications can be found on [Google Scholar.](https://scholar.go
 
 
 
-* **LLMs/MLLMs compression and pruning**
+* <span style="color: #a85d5d; font-weight: 600;">Efficient LLMs/MLLMs</span>
 <ol>
 
   <li><b>Context Guided Transformer Entropy Modeling for Video Compression.</b>
@@ -61,7 +64,7 @@ A full list of publications can be found on [Google Scholar.](https://scholar.go
   <li><b>What Do Visual Tokens Really Encode? Uncovering Sparsity and Redundancy in Multimodal Large Language Models.</b>
   <a href="https://arxiv.org/abs/2603.00510" target="_blank" rel="noopener noreferrer">[PDF]</a><a href="https://github.com/EIT-NLP/EmbedLens" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
 	  <i>Yingqi Fan, <u>Junlong Tong</u>, Anhao Zhao, Xiaoyu Shen<sup>†</sup>.</i><br> 
-      CVPR 2026.<br> 
+      CVPR 2026. (<b><span style="color: #e57373;">Highlight</span></b>)<br> 
     </li>
 
   <li><b>HiDrop: Hierarchical Vision Token Reduction in MLLMs via Late Injection, Concave Pyramid Pruning, and Early Exit
@@ -98,7 +101,7 @@ A full list of publications can be found on [Google Scholar.](https://scholar.go
 
 
 
-* **LLM for Sequence Modeling**
+* <span style="color: #a85d5d; font-weight: 600;">LLM for Sequence Modeling</span>
 <ol>
 
   <li><b>Rethinking the Role of LLMs in Time Series Forecasting.</b>
