@@ -6,12 +6,11 @@ I’m Junlong Tong, a Ph.D. candidate in Computer Science at Shanghai Jiao Tong 
 * **Streaming LLMs/MLLMs**, which study *real-time perception, concurrent reasoning, and proactive interaction* over continuous inputs. 
 * **LLMs/MLLMs compression and acceleration**, which investigate *data/token/KV cache compression, layer pruning, and efficient inference* for scalable deployment. -->
 
-My research focuses on **multimodal foundation models for dynamic real-world environments, with the goal of enabling models to perceive, reason, and interact continuously and proactively in real time.** In particular, I focus on two complementary directions:
-* **Streaming LLMs/MLLMs**, which study *real-time perception, concurrent reasoning, and proactive interaction* over continuous inputs. 
+My research focuses on **multimodal foundation models for dynamic real-world environments**, with the goal of enabling models to perceive, reason, and interact continuously and proactively in real time. In particular, I focus on two complementary directions:
+* **Streaming LLMs/MLLMs**, which study *real-time multimodal perception, concurrent reasoning, and proactive interaction* over continuous, long-horizon multimodal streams.
 * **Efficient LLMs/MLLMs**, which investigate *data/token/KV cache compression, layer pruning, and efficient inference* for scalable deployment.
 
-More broadly, I aim to build multimodal foundation models that are both capable in continuous real-world settings and efficient enough for practical deployment at scale. I also have research experience in *LLMs for time-series modeling*, which complements my broader interest in temporal modeling over continuous data.
-
+More broadly, I aim to build multimodal foundation models that are both capable of operating in continuous real-world settings and efficient enough for practical deployment at scale, and serve as the foundation for multimodal agents. I also have research experience in LLMs for *time-series modeling*, which complements my broader interest in temporal modeling over continuous data.
 
 <br>
 <p>
