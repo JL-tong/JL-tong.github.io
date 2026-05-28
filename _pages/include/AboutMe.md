@@ -7,7 +7,7 @@ I’m Junlong Tong, a Ph.D. candidate in Computer Science at Shanghai Jiao Tong 
 * **LLMs/MLLMs compression and acceleration**, which investigate *data/token/KV cache compression, layer pruning, and efficient inference* for scalable deployment. -->
 
 My research focuses on **multimodal foundation models for dynamic real-world environments**, with the goal of enabling models to perceive, reason, and interact continuously and proactively in real time. In particular, I focus on two complementary directions:
-* **Streaming LLMs/MLLMs**, which study *real-time multimodal perception, concurrent reasoning, and proactive interaction* over continuous, long-horizon multimodal streams.
+* **Real-time streaming LLMs/MLLMs**, which study *real-time multimodal perception, concurrent reasoning, and proactive interaction* over continuous, long-horizon multimodal streams.
 * **Efficient LLMs/MLLMs**, which investigate *data/token/KV cache compression, layer pruning, and efficient inference* for scalable deployment.
 
 More broadly, I aim to build multimodal foundation models that are both capable of operating in continuous real-world settings and efficient enough for practical deployment at scale, and serve as the foundation for multimodal agents. I also have research experience in LLMs for *time-series modeling*, which complements my broader interest in temporal modeling over continuous data.
@@ -20,6 +20,7 @@ More broadly, I aim to build multimodal foundation models that are both capable 
 
 
 # News ✨
+[2026.05] Two papers are accepted by ICML 2026.🎉   
 [2026.04] The survey of streaming LLMs has been accepted by ACL 2026 Findings.🎉   
 [2026.02] Three papsers are accepted by CVPR 2026.🎉   
 [2026.01] Two papers are accepted by ICLR 2026.🎉   

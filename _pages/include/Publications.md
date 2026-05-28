@@ -4,6 +4,12 @@ A full list of publications can be found on [Google Scholar.](https://scholar.go
 * <span style="color: #a85d5d; font-weight: 600;">Streaming LLMs/MLLMs</span> (<a href="https://github.com/EIT-NLP/StreamingLLM">Demo</a>)
 <ol>
 
+  <li><b>ProactiveLLM: Learning Active Interaction for Streaming Large Language Models.</b><br> 
+  <!-- <a href="https://arxiv.org/abs/2510.17238" target="_blank" rel="noopener noreferrer">[PDF]</a>
+  <a href="https://github.com/EIT-NLP/StreamingLLM/tree/main/StreamingThinker" target="_blank" rel="noopener noreferrer">[Code]</a><br>  -->
+	  <i><u>Junlong Tong</u>, Yao Zhang, Anhao Zhao, Yingqi Fan, Yunpu Ma, Xiaoyu Shen<sup>†</sup>.</i><br>  
+      ICML 2026<br> 
+    </li>
 
   <li><b>From Static Inference to Dynamic Interaction: A Survey of Streaming Large Language Models.</b>
   <a href="https://arxiv.org/abs/2603.04592" target="_blank" rel="noopener noreferrer">[PDF]</a>
@@ -35,12 +41,6 @@ A full list of publications can be found on [Google Scholar.](https://scholar.go
       Findings of ACL 2025.<br> 
     </li>
 
-  <li><b>ProactiveLLM: Learning Active Interaction for Streaming Large Language Models.</b><br> 
-  <!-- <a href="https://arxiv.org/abs/2510.17238" target="_blank" rel="noopener noreferrer">[PDF]</a>
-  <a href="https://github.com/EIT-NLP/StreamingLLM/tree/main/StreamingThinker" target="_blank" rel="noopener noreferrer">[Code]</a><br>  -->
-	  <i><u>Junlong Tong</u>, Yao Zhang, Anhao Zhao, Yingqi Fan, Yunpu Ma, Xiaoyu Shen<sup>†</sup>.</i><br>  
-      Under review<br> 
-    </li>
 
   <li><b>Speak While Watching: Unleashing TRUE Real-Time Video Understanding Capability of Multimodal Large Language Models.</b>
   <a href="https://arxiv.org/abs/2601.06843" target="_blank" rel="noopener noreferrer">[PDF]</a><a href="https://github.com/EIT-NLP/Speak-While-Watching" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
@@ -104,6 +104,13 @@ A full list of publications can be found on [Google Scholar.](https://scholar.go
 * <span style="color: #a85d5d; font-weight: 600;">LLM for Sequence Modeling</span>
 <ol>
 
+  <li><b>Revealing Scaling Behavior in Large-scale Time Series Models: Implications for More Efficient and Accurate Forecasting.</b>
+  <a href="https://arxiv.org/abs/2511.07237" target="_blank" rel="noopener noreferrer">[PDF]</a>
+  <a href="https://github.com/EIT-NLP/LLM4TSF" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
+	  <i>Xin Qiu*, <u>Junlong Tong*</u>, Yirong Sun, Yunpu Ma, Xiaoyu Shen<sup>†</sup>.</i><br>  
+      ICML 2026<br> 
+    </li> 
+    
   <li><b>Rethinking the Role of LLMs in Time Series Forecasting.</b>
   <a href="https://arxiv.org/abs/2602.14744" target="_blank" rel="noopener noreferrer">[PDF]</a>
   <a href="https://github.com/EIT-NLP/LLM4TSF" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
@@ -111,13 +118,6 @@ A full list of publications can be found on [Google Scholar.](https://scholar.go
       Under review<br> 
     </li> 
 
-
-  <li><b>The Few Govern the Many: Unveiling Few-Layer Dominance for Time Series Models.</b>
-  <a href="https://arxiv.org/abs/2511.07237" target="_blank" rel="noopener noreferrer">[PDF]</a>
-  <a href="https://github.com/EIT-NLP/LLM4TSF" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
-	  <i>Xin Qiu*, <u>Junlong Tong*</u>, Yirong Sun, Yunpu Ma, Xiaoyu Shen<sup>†</sup>.</i><br>  
-      Under review<br> 
-    </li> 
 
   <li><b>Probabilistic Decomposition Transformer for Time Series Forecasting.</b>
   <a href="https://doi.org/10.1137/1.9781611977653.ch54" target="_blank" rel="noopener noreferrer">[PDF]</a>
