@@ -5,5 +5,5 @@
 
 
 # Academic Services
-* Conference Reviewer: ICML, NeurIPS, ACL, CVPR, ECCV, AAAI
-* Journal Reviewer: TCVST, TNNLS
+* Conference Reviewer: ICML, NeurIPS, ARR, CVPR, ECCV, AAAI
+* Journal Reviewer: TMM, TCVST, TNNLS

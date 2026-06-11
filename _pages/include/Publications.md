@@ -1,12 +1,12 @@
 # Publications 
 A full list of publications can be found on [Google Scholar.](https://scholar.google.com/citations?user=Amv2QE8AAAAJ&hl=zh-CN&oi=ao)  
 (* Equal Contribution, <sup>†</sup> Corresponding author)
-* <span style="color: #a85d5d; font-weight: 600;">Streaming LLMs/MLLMs</span> (<a href="https://github.com/EIT-NLP/StreamingLLM">Demo</a>)
+* <span style="color: #a85d5d; font-weight: 600;">Real-time Streaming LLMs/MLLMs</span> (<a href="https://github.com/EIT-NLP/StreamingLLM">Demo</a>)
 <ol>
 
   <li><b>ProactiveLLM: Learning Active Interaction for Streaming Large Language Models.</b><br> 
-  <!-- <a href="https://arxiv.org/abs/2510.17238" target="_blank" rel="noopener noreferrer">[PDF]</a>
-  <a href="https://github.com/EIT-NLP/StreamingLLM/tree/main/StreamingThinker" target="_blank" rel="noopener noreferrer">[Code]</a><br>  -->
+  <a href="https://arxiv.org/abs/2606.00523" target="_blank" rel="noopener noreferrer">[PDF]</a>
+  <a href="https://github.com/EIT-NLP/StreamingLLM/tree/main/ProactiveLLM" target="_blank" rel="noopener noreferrer">[Code]</a><br> 
 	  <i><u>Junlong Tong</u>, Yao Zhang, Anhao Zhao, Yingqi Fan, Yunpu Ma, Xiaoyu Shen<sup>†</sup>.</i><br>  
       ICML 2026<br> 
     </li>
